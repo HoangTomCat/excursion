@@ -11,6 +11,7 @@ a{
     font-size: 16px;
 }
 .container{
+    width: 100vw;
     text-align: center;
 }
 /*Header*/
@@ -33,7 +34,7 @@ section{
     width: 100%;
     text-align: center;
 }
-section h1{
+section h2{
     font-size: 42px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
@@ -53,10 +54,11 @@ footer{
     top: 20px;
     text-align: center;
 }
-footer h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+footer h2{
     font-weight: 300;
     font-size: 42px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 footer p{
     text-align: right;
