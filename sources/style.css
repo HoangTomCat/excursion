@@ -1,8 +1,13 @@
 
 /*Universal Style*/
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: black;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 8px;
 }
 a{
     display: block;
@@ -10,19 +15,17 @@ a{
     color: aquamarine;
     font-size: 16px;
 }
-.container{
-    width: 100vw;
-    text-align: center;
-}
 /*Header*/
 nav{
     width: 100%;
+    text-align: center;
 }
 nav h1{
+    margin-top: 33.5px;
+    margin-bottom: 33.5px;
     font-size: 50px;
     font-weight: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
 }
 main{
     position: relative;
@@ -38,30 +41,30 @@ section h2{
     font-size: 42px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
-    text-align: center;
 }
 section p{
     font-size: 21px;
     color: gray;
-    text-align: center;
 }
-section img{
-    width: 100%;
-}
+
 /*Footer*/
 footer{
     position: relative;
-    top: 20px;
+    top: 15px;
     text-align: center;
+}
+footer img{
+    width: 60px;
 }
 footer h2{
     font-weight: 300;
     font-size: 42px;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-footer p{
+footer p.copyright-title{
     text-align: right;
-    color: gray
+    color: gray;
+    font-weight: 300;
+    font-size: 21px;
 }
 
